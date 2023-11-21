@@ -158,6 +158,7 @@ Then, define a slide following this structure:
 | SSL  | Zigzag slide to the left  | Distance between startPos and endPos must be 4  | s |
 | SSR  | Zigzag slide to the right  | Distance between startPos and endPos must be 4  | z |
 | SF_  | Fan-like shape connecting two opposing buttons | Distance between startPos and endPos must be 4  | w |
+
 For example, to make a straight-line slide from button 2 to button 5 with duration of half a beat:
 ```
 NMSTR   5   0   2               // Star note
