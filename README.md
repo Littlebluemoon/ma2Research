@@ -257,7 +257,7 @@ Records the amount of judge markers for various note types.
 This part contains miscellaneous information about scoring.
 | Message | Meaning |
 |---|---|
-| TTM_EACHPARIS | The number of note groups being hit at the same time (i.e. yellow notes). |
+| TTM_EACHPAIRS | The number of note groups being hit at the same time (i.e. yellow notes). |
 | TTM_SCR_TAP | Total amount of score given by hitting all Tap and Touch notes perfectly (excluding Breaks). Each Tap/Touch awards 500 points, so this is equal to `T_NUM_TAP * 500`. |
 | TTM_SCR_BRK | Total amount of score given by hitting all Breaks critically perfect. Critically perfecting a Break gives 2600 points, so this is equal to `T_NUM_BRK * 2600`. |
 | TTM_SCR_HLD | Total amount of score given by hitting all Hold and Touch Hold notes perfectly (excluding Breaks). Each Hold/Touch Hold awards 1000 points, so this is equal to `T_NUM_HLD * 1000`. |
