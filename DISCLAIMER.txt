@@ -1,0 +1,13 @@
+This document is an educational article on how chart files are organized and parsed
+by the arcade game maimai. The author doesn't by anyway condone the piracy, illegal operation,
+modification or reverse engineering of maimai arcade game software/cabinets, since such actions
+may violate Japanese or international laws.
+
+The information in this document was obtained through the study of non-binary files and how 
+the data within it was reflected in game. During the creation of this document, no reverse-engineering 
+of binary files and codes within the game took place, and no information in this document was drawn 
+out as a result of said actions. No copyrighted images, videos, audio, or binary files are provided 
+with this documentation. Images, videos, and excerpts of files are recreated, independent from their original material, 
+or are public domain. The creation and modification of "charts" is considered fair use under terms of interoperability.
+
+"maimai" is a trademark of SEGA Corporation. All referenced songs belong to their respective copyright holders.
