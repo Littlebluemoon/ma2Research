@@ -20,6 +20,7 @@ VERSION	0.00.00	1.04.00
 1.04.00 is the current version of the charting engine.
 ## FES_MODE
 Defines if a chart is a Utage chart or not.
+
 Currently, it is unknown how maimai DX handles special modifiers for Utage charts (e.g. extreme scroll speed/invisible notes in *全世界共通リズム感テスト*).
 ```
 FES_MODE	[0/1]
@@ -37,7 +38,9 @@ It's also worth noting that BPM values use three decimal digits, and follow how 
 This change is more noticeable in higher BPM values. For example, to define 275.000 BPM, you would have to fill in 275.001.
 ## MET_DEF
 Defines the main time signature of the song.
+
 Since maimai has no real way to visually indicate a measure, this value is purely cosmetic.
+
 Also, note that this value is written in reverse: The lower part goes first, then the upper part.
 ```
 MET_DEF	4	4
@@ -50,6 +53,7 @@ RESOLUTION	384
 ```
 ## CLK_DEF
 Affects the number of ticks played at the beginning of a song. `CLK_DEF / (RESOLUTION / 4)` ticks will play following the starting BPM of the chart, and this often corresponds to the starting time signature.
+
 It is possible to have these ticks played at a different BPM than intended, by setting a different starting BPM, then setting the next BPM definition to the actual BPM once the ticks end. (Examples include *Last Samurai*).
 ```
 CLK_DEF	384
@@ -74,8 +78,9 @@ Structure:
 MET [measure]   [tick]  [lower] [upper]
 ```
 `[measure]` and `[tick]` denotes the timing of the BPM change, and `[lower]` and `[upper]` respectively, its lower and upper part.
+
 Again, as there are no real ways to visually indicate a measure in maimai, and each (in-chart) measure will always constitute four beats no matter what time signature it is in, these values are purely cosmetic. However, it can help charters understand the rhythm of a song.
-This part should always start with a BPM definition at measure 0 and tick 0.
+This part should always start with a MET definition at measure 0 and tick 0.
 # Notes
 ma2 1.04.00 uses almost all note definitions used in ma2 1.03.00, with some new additions due to the new features from maimai DX FESTiVAL.
 ## Basic
