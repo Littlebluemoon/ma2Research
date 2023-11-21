@@ -199,7 +199,7 @@ Structure:
 NMTTP   [measure]   [tick]  [numPos]    [chrPos]    [hanabi]    [size]
 ```
 - `[numPos]` is any integer in the range 0-7.
-- `[chrPos]` is any one of `[A, B, C, D, E, F.]`
+- `[chrPos]` is any one of `[A, B, C, D, E]`.
     - When combined, `[chrPos]` and `[numPos]` form the name of a touch sensor on the screen.
     - Note that while there are technically two C touch sensors, C1 and C2, only C1 (C0 in-chart) is used when charting.
 - `[hanabi]` triggers a firework effect if set to `1`.
