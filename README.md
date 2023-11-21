@@ -187,7 +187,7 @@ There are many things to note about this type of slide:
 - Their timing is the sum of the first slide segment, plus all delay and duration values,
 - Their delay is always 0,
 - Their startPos should be equal to the previous slide segment's endPos,
-- and their star's moving speed is directly proportional to the total duration of the whole slide, not the duration of individual segments within it.
+- and their star's moving speed is inversely proportional to the total duration of the whole slide, not the duration of individual segments within it.
 
 ```
 NMSTR   5   0   2               // Star note
