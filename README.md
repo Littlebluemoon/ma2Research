@@ -271,5 +271,5 @@ This part contains miscellaneous information about scoring.
 | TTM_SCR_SLD | Total amount of score given by hitting all Slide notes perfectly (excluding Breaks). Each Slide awards 1500 points, so this is equal to `T_NUM_SLD * 1500`. |
 | TTM_SCR_ALL | Sum of `TTM_SCR_TAP`, `TTM_SCR_BRK`, `TTM_SCR_SLD` and `TTM_SCR_HLD`. This is the score required to get SSS+ rank. |
 | TTM_SCR_S | Minimum score required to get S rank (97%). Equals to `(TTM_SCR_ALL - 100 * T_NUM_BRK) * 0.97`, rounded up to the nearest multiple of 50. |
-| TTM_SCR_S | Minimum score required to get SS rank (99%). Equals to `(TTM_SCR_ALL - 100 * T_NUM_BRK) * 0.99`, rounded up to the nearest multiple of 50. |
+| TTM_SCR_SS | Minimum score required to get SS rank (99%). Equals to `(TTM_SCR_ALL - 100 * T_NUM_BRK) * 0.99`, rounded up to the nearest multiple of 50. |
 | TTM_RAT_ACV | The FiNALE rating required to get SSS+ rank (hitting all notes perfectly, and all Breaks critically perfect). Equals to `TTM_SCR_ALL / (TTM_SCR_ALL - 100 * T_NUM_BRK) * 10000`, rounded down. |
