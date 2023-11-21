@@ -70,6 +70,7 @@ Structure:
 BPM [measure]   [tick]  [BPM]
 ```
 `[measure]` and `[tick]` denotes the timing of the BPM change, and `[BPM]` its value.
+
 This part should always start with a BPM definition at measure 0 and tick 0.
 # MET
 This part defines the time signature changes in the chart.
@@ -80,6 +81,7 @@ MET [measure]   [tick]  [lower] [upper]
 `[measure]` and `[tick]` denotes the timing of the BPM change, and `[lower]` and `[upper]` respectively, its lower and upper part.
 
 Again, as there are no real ways to visually indicate a measure in maimai, and each (in-chart) measure will always constitute four beats no matter what time signature it is in, these values are purely cosmetic. However, it can help charters understand the rhythm of a song.
+
 This part should always start with a MET definition at measure 0 and tick 0.
 # Notes
 ma2 1.04.00 uses almost all note definitions used in ma2 1.03.00, with some new additions due to the new features from maimai DX FESTiVAL.
