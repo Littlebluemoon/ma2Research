@@ -237,6 +237,7 @@ Records the amount of specific note types, broken down into note types and modif
 ## T_NUM
 Records the number of note types, broken down into four main categories as shown in the result screen.
 - Note that the note types here is categorized using maimai FiNALE gameplay.
+
 | Message | Meaning |
 |---|---|
 | T_NUM_TAP | Amount of Tap and Touch notes (excluding Breaks) |
