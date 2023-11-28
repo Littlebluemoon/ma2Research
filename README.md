@@ -147,7 +147,7 @@ Then, define a slide following this structure:
 - `[startPos]` and `[endPos]` define the starting and ending position of the slide
 - `[delay]` states the amount of time that the slide-star fully forms before moving. Most of the slides delay for one beat.
 - `[duration]` states the duration of the slide
-	- Unchecked: Can a slide has a duration of `0`?
+	- Slides can have a duration of `0`, in which case the slide-star moves almost instantly to the end, no matter the BPM.
 - `[shape]` is one of the following
 
 | Symbol | Shape  | startPos & endPos notes  | Corrseponding simai shape |
