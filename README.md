@@ -8,6 +8,6 @@ For disclaimer and copyright attributions, see [DISCLAIMER].
 
 # Table of Contents
 
-- (Charting)[Charting.md]
+- (Charting)[Charts.md]
 
 *(more documents coming soon)*
