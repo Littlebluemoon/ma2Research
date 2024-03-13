@@ -8,6 +8,7 @@ For disclaimer and copyright attributions, see [DISCLAIMER](DISCLAIMER.txt).
 
 # Table of Contents
 
+- [Music](Music.md)
 - [Charting](Charts.md)
 
 *(more documents coming soon)*
