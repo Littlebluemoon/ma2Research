@@ -228,7 +228,7 @@ To override this, manually shift the notes that you want to put later's timing b
 2bx<2>2[2:17]b*<2[4:17]
 ```
 
-![Apollo ending slide](https://cdn.discordapp.com/attachments/764341849921159191/1211591719519256596/image.png?ex=65eec1b8&is=65dc4cb8&hm=1f0a838813659f678d38b3bda714b25eb2eedf2b5bbac09a951c1aa7bcac488b&)
+![Apollo ending slide](assets/Apollo.webp)
 
 Normally, to define this, we would use
 
