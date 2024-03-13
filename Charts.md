@@ -207,7 +207,7 @@ NMTTP   [measure]   [tick]  [numPos]    [chrPos]    [hanabi]    [size]
     - `M1` returns a regular-sized note.
     - `L1` results in a bigger note used in Basic/Advanced charts.
 ```
-NMTTPO   10  0   4   D   0   M1      // Touch at sensor D4
+NMTHO   10  0   4   D   0   M1      // Touch at sensor D4
 ```
 ## Touch Hold
 ```
@@ -215,7 +215,38 @@ NMTTP   [measure]   [tick]  [duration]  0    C    [hanabi]    [size]
 ```
 `[numPos]` and `[chrPos]` is replaced by `0` and `C` respectively, since that is the only combination for the position of a Touch Hold.
 # Note ordering
-Just like ma2 1.03.00, notes are sorted in order of timing. Within each timing group, the order of notes doesn't matter: so long as the expressions are well-formed, the note will be generated in the correct order.
+Just like ma2 1.03.00, notes are sorted in order of timing.
+
+Within each timing group, the order of notes affects the stacking order of notes, specifically Slides:
+- Notes that are defined first will be put to the frontmost,
+- and notes that are defined later will be put underneath the first note in order of appearance in the chart file.
+
+This can cause some trouble if the charter is attempting to stack notes in such a way that serves some aesthetic purpose.
+
+To override this, manually shift the notes that you want to put later's timing by a minimal amount. Take Apollo's ending slide for example.
+```
+2bx<2>2[2:17]b*<2[4:17]
+```
+
+![Apollo ending slide](https://cdn.discordapp.com/attachments/764341849921159191/1211591719519256596/image.png?ex=65eec1b8&is=65dc4cb8&hm=1f0a838813659f678d38b3bda714b25eb2eedf2b5bbac09a951c1aa7bcac488b&)
+
+Normally, to define this, we would use
+
+```
+BRSCL	2	0	1	96	1632	1
+NMSCL	2	0	1	96	1632	1
+CNSCR	6	96	1	0	1632	1	
+```
+In the above snippet, CNSCR would connect to BRSCL, which gameplay-wise is correct. However, it's not aesthetic-wise correct, since the break slide would be placed in front of the normal slide, obscuring it entirely, causing confusion to players when they got a slide scoring by sliding a slide that isn't finished. Arranging BRSCL and NMSCL the other way would render it gameplay-wise incorrect, since CNSCR is now connected to NMSCL, making the break section lasting only half as long.
+
+To get around this, increase BRSCL's duration and CNSCR's timing by 1, while also reducing CNSCR's duration by 1, and rearrange NMSCL in front of BRSCL.
+```
+BXSTR	2	0	1
+NMSCL	2	0	1	96	1632	1
+BRSCL	2	0	1	96	1633	1
+CNSCR	6	97	1	0	1631	1	
+```
+
 # Footer
 This part contains overall stats for the chart. This is purely for reference purposes since incorrect values here will still allow the chart to run.
 ## T_REC
