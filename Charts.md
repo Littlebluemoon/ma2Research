@@ -154,10 +154,10 @@ Then, define a slide following this structure:
 | SV_  | A line goes from the starting button to the center of the screen, then to the ending button  | Distance between startPos and endPos cannot be 0  | v |
 | SCR  | An arc going along the judgment ring, clockwise  | None  | < or > depending on position|
 | SCL  | An arc going along the judgment ring, counter-clockwise  | None  | < or > depending on position|
-| SUR  | An arc going along the center of the screen, clockwise  | None  | q |
-| SUL  | An arc going along the center of the screen, counterclockwise  | None  | p |
-| SXR  | An arc going along the side of the screen, clockwise  | None  | qq |
-| SXL  | An arc going along the side of the screen, counterclockwise  | None  | pp |
+| SUR  | An arc going along the center of the screen, clockwise  | None  | p |
+| SUL  | An arc going along the center of the screen, counterclockwise  | None  | q |
+| SXR  | An arc going along the side of the screen, clockwise  | None  | pp |
+| SXL  | An arc going along the side of the screen, counterclockwise  | None  | qq |
 | SLR  | A line connecting the starting button and the button two spaces away, clockwise, then the ending button  | endPos must be greater than startPos + 2  | V |
 | SLL  | A line connecting the starting button and the button two spaces away, counterclockwise, then the ending button  | endPos must be greater than startPos - 2  | V |
 | SSL  | Zigzag slide to the left  | Distance between startPos and endPos must be 4  | s |
