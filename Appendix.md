@@ -228,4 +228,4 @@ A brief visual guide for judge styles is in the picture below.
 
 The above table would explain why there is no 3-A (duplicate of 2-A), or 3-E (duplicate of 3-B). 
 
-This option has seen uses in older maimai version, for example, in [全世界共通リズム感テスト](https://www.youtube.com/watch?v=2td8i141kcY). In this chart, notes are invisible, and Breaks judgments won't display as Perfect Fast or Perfect Late, since the judge type has been either changed to 1-B or 2-B. It is also said that the guide sound is off, too.
+This option has seen uses in older maimai versions, for example, in [全世界共通リズム感テスト](https://www.youtube.com/watch?v=2td8i141kcY). In this chart, notes are invisible, and Breaks judgments won't display as Perfect Fast or Perfect Late, since the judge type has been either changed to 1-B or 2-B. It is also said that the guide sound is off, too.

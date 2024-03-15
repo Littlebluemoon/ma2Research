@@ -10,5 +10,7 @@ For disclaimer and copyright attributions, see [DISCLAIMER](DISCLAIMER.txt).
 
 - [Music](Music.md)
 - [Charting](Charts.md)
+- [Utage](Utage.md)
+- [Appendix](Appendix.md)
 
 *(more documents coming soon)*
