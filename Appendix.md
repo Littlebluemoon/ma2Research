@@ -155,7 +155,9 @@ This option offers conditions to terminate the current track.
 ### Buttons
 Allows the player to terminate the track by holding the buttons 2, 3, 6, 7 for three seconds.
 - This is different from holding the buttons 3, 4, 5, 6 for three seconds to restart the track in Freedom Mode.
+
 `_fixedOptionValue`: `Push`
+
 ![Yoshiki faking a Track Skip in KoP5th. Let him have fun dominating the shit outta the LCQ winner](assets/yoshi.png)
 ### Rank
 Terminates the track once the player's score drops below a specific amount.
