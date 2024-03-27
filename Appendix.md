@@ -13,7 +13,7 @@ F = Fast, L = Late. Empty cells means that a judgment for that type of note cann
 |Slide|\[-∞, -433.33)|\[-433.33, -366.66)|\[-366.67, -300)|\[-300, -233.33)| | |\[-233.33, 233.33]| | |(233.33, 266.66]|(266.66, 366.67]|(366.66, 433.33]|(433.33, 600]|
 |Touch/Touch Hold Head| | | | | | |\[-150, 150]|(150, 175]|(175, 200]|(200, 216.66]|(216.66, 233.33]|(233.33, 250]|(250, 300]|
 
-You probably have noticed the different tiers within a single judgment, how the note types are named.
+You probably have noticed the different tiers within a single judgment and how the note types are named.
 
 - Judgments are often broken into multiple tiers, to support the multi-tier scoring of Break notes. More on that in **Scoring**.
 - EX notes automatically gives a Critical Perfect judgment, so long as it's hit.
@@ -30,6 +30,7 @@ Hold notes is judged based on two criterias: The hold's judgment when you hit it
 ### Hold Head
 The judgment is calculated according to the table above. The hold will glow to signify the judgment.
 - The window to achieve specific judgments are described in the table above.
+- If the player put their hand on the hold too late, the hold would glow white instead.
 
 ### Hold Length
 If the player removes their hands from the hold input, the hold doesn't disappear instantly, instead it still remains till it ends, allowing the player to re-engage the hold.
@@ -41,9 +42,9 @@ How the final judgment is calculated is determined by the percentage of time tha
 
 |Judgment|Minimum Percentage of Duration|Notes|
 |---|---|---|
-|Critical|83.33% (5/6)|Untested|
-|Critical -> Perfect|66.66% (2/3)|Unsure what percentage to achieve the various tiers of Perfect, but this percentage gives the player Low Perfect|
-|Critical/Perfect -> Great|25.00% (1/4)|Unsure what percentage to achieve the various tiers of Great, but this percentage gives the player Low Great|
+|Critical|95%| |
+|Critical -> Perfect|66.66%|Unsure what percentage to achieve the various tiers of Perfect, but this percentage gives the player Low Perfect|
+|Critical/Perfect -> Great|33.33%|Unsure what percentage to achieve the various tiers of Great, but this percentage gives the player Low Great|
 |Critical/Perfect -> Good|Minimal interaction with the hold||
 |Great -> Good|Not tested||
 |Good -> Great|See notes|As long as the remaining duration is long enough, engage the hold for 100% of the remaining duration would turn a Good into a Great; not sure what is that required percentage|
@@ -57,6 +58,8 @@ Slides are judged based on two criterias: timing and completion.
 
 A slide would be considered "completed" if the last segment of it is cleared.
 - Once a slide is "completed", the game instantly judge the slide timing-wise.
+- Sometimes for very long slides, they will be judged for some time after the slide is completed.
+    - [Example.](https://youtu.be/HMpjTLja1DA?si=QDA0hBk34gA21cOm&t=90) Note how the slide registers a significant moment after he finished them.
 If a slide is not completed, then it is judged based on the number of slide segments left incomplete.
 - If 2+ segments are incomplete, the slide is judged as Miss
     - Needs clarification, sometimes I get a Late Good despite leaving more than one slide segment incomplete
@@ -124,6 +127,8 @@ $total\textunderscore score = \frac{base\textunderscore score\textunderscore ach
 # Utage letters
 
 This list is a description of currently known characters used to describe an Utage chart.
+- It seems that Sega charters will throw any letters into this now, duh
+- I will still keep updating this as they add more letters, because why not
 
 |Character|Transliteration|Description|Examples|
 |---------|---------------|-----------|--------|
@@ -142,6 +147,13 @@ This list is a description of currently known characters used to describe an Uta
 | 耐 | endurance | Charts created to test a player's endurance, or sometimes consistency. | [Space Harrier Main Theme \[Reborn\]](https://www.youtube.com/watch?v=85CdmfDsyeQ), [CYCLES](https://www.youtube.com/watch?v=TpSBifKEfME). Notice the recurring patterns.|
 | 右 | right | All notes appear on the right-hand side of the screen. Does not apply to slides (not their stars). Actually a joke accompanied with **The wheel to the right**. | [The wheel to the right](https://www.youtube.com/watch?v=hUizrk7P5Hk)|
 | 回 | times, loop | A chain of tapless slides surrounds the judgment ring. Notes to hit are touches located at the center of the screen, requiring the player to take care of both the slides and touches. | [回る空うさぎ](https://www.youtube.com/watch?v=UwnkpsfffuU)|
+| 息 | breath | A letter assigned exclusively to ノンブレス・オブリージュ. The chart has properties of a 耐 chart. | [ノンブレス・オブリージュ](https://www.youtube.com/watch?v=yK9M9gPmsIs)|
+| 奏 | concert | 協, but it's a BUDDY chart that can be cleared by one person per cabinet. | [チュルリラ・チュルリラ・ダッダッダ！](https://www.youtube.com/watch?v=hFKAqsieCaM)|
+| J | J | On 6 Apr 2017, Sega decided to release five different versions of Garakuta Doll Play in the Utage folder, showing each charter's take on the song. &#10;Originally, when Utage was revived, only the first version of the chart is released as a 宴 chart, but the operator somehow gave out the wrong one (the second one). Sega quickly detected this error and revoked the chart, as well as releasing all of them in a future update as compensation (which is BUDDiES PLUS initial release). &#10;This is Jack's version of the chart. The letter was changed as well, since having multiple versions of the chart with just a single letter might be confusing. | [Garakuta Doll Play](https://www.youtube.com/watch?v=1r8TbJ954lA) |
+| r | r | This is rioN's version of the chart. | [Garakuta Doll Play](https://www.youtube.com/watch?v=0LQR5rEGDbI) |
+| は |  | This is Happy (はっぴー)'s  version of the chart. は is the hiragana for "ha". | [Garakuta Doll Play](https://www.youtube.com/watch?v=XGlUUZVqdIg) |
+| 玉 |  | This is 玉子豆腐's version of the chart. | [Garakuta Doll Play](https://www.youtube.com/watch?v=r1C0jbBnkXE) |
+| 某 |  | This is 某S氏's version of the chart. | [Garakuta Doll Play](https://www.youtube.com/watch?v=qxKTXhLREA4) &#10;Stop asking why I love using reference videos with Tsukiho's face in it |
 
 # Utage fixed options
 A list of options that can be applied to Utage charts.
@@ -176,7 +188,7 @@ The player is given a set amount of Life. Each non-Perfect deducts 1 life. When 
 
 Life is displayed at the center, overriding any of the player's existing settings.
 
-In BUDDY charts, both players share the same amount of Life, if a player make a mistake, both of them will lose 1 life. Once Life reaches zero, it's game over for both of them.
+In BUDDY charts, both players share the same amount of Life; if a player make a mistake, both of them will lose 1 life. Once Life reaches zero, it's game over for both of them.
 
 `_fixedOptionValue`: `AutoLifeXXX`, with `XXX` being `1`, `10`, `50`, `100`, `300`, giving the player the respective amount of Life.
 
@@ -229,3 +241,14 @@ A brief visual guide for judge styles is in the picture below.
 The above table would explain why there is no 3-A (duplicate of 2-A), or 3-E (duplicate of 3-B). 
 
 This option has seen uses in older maimai versions, for example, in [全世界共通リズム感テスト](https://www.youtube.com/watch?v=2td8i141kcY). In this chart, notes are invisible, and Breaks judgments won't display as Perfect Fast or Perfect Late, since the judge type has been either changed to 1-B or 2-B. It is also said that the guide sound is off, too.
+
+## Mirror
+This option forcefully mirrors or rotates the chart.
+
+|`_fixedOptionValue`|Explanation|
+|---|---|
+| `Off`  | Does not flip or rotate the chart. Also render player's mirroring options invalid. |
+|  `LR`  |  Flips the chart vertically.|
+|  `UD`  | Flips the chart horizontally.|
+| `LRUD` | Applies both `LR` and `UD`. |
+

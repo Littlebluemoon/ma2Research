@@ -130,6 +130,7 @@ Note that this value could be set as high as one wants, even though the game doe
 A single digit denoting the chart level's decimal part, hidden from the player, and used for rating calculations as well as difficulty estimation within a tier of difficulty.
 
 `<level>` and `<levelDecimal>` together forms a *chart constant*. For example, a level of 9 and levelDecimal of 8 forms a chart constant of 9.8. Decimals of .7 and up is classified as +.
+- **[NEW]** Starting from BUDDiES PLUS, .6 or up are classified as +. I don't know why, but now all three main SEGA arcade rhythm games has different ways to determine if a level is + or not.
 
 Enter anything larger than 9 will probably crash the game.
 
