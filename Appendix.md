@@ -153,8 +153,7 @@ This list is a description of currently known characters used to describe an Uta
 | r | r | This is rioN's version of the chart. | [Garakuta Doll Play](https://www.youtube.com/watch?v=0LQR5rEGDbI) |
 | は |  | This is Happy (はっぴー)'s  version of the chart. は is the hiragana for "ha". | [Garakuta Doll Play](https://www.youtube.com/watch?v=XGlUUZVqdIg) |
 | 玉 |  | This is 玉子豆腐's version of the chart. | [Garakuta Doll Play](https://www.youtube.com/watch?v=r1C0jbBnkXE) |
-| 某 |  | This is 某S氏's version of the chart. | [Garakuta Doll Play](https://www.youtube.com/watch?v=qxKTXhLREA4)\
- Stop asking why I love using reference videos with Tsukiho's face in it |
+| 某 |  | This is 某S氏's version of the chart. | [Garakuta Doll Play](https://www.youtube.com/watch?v=qxKTXhLREA4)//  Stop asking why I love using reference videos with Tsukiho's face in it |
 
 # Utage fixed options
 A list of options that can be applied to Utage charts.
