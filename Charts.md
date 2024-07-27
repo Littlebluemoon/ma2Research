@@ -207,11 +207,11 @@ NMTTP   [measure]   [tick]  [numPos]    [chrPos]    [hanabi]    [size]
     - `M1` returns a regular-sized note.
     - `L1` results in a bigger note used in Basic/Advanced charts.
 ```
-NMTHO   10  0   4   D   0   M1      // Touch at sensor D4
+NMTTP   10  0   4   D   0   M1      // Touch at sensor D4
 ```
 ## Touch Hold
 ```
-NMTTP   [measure]   [tick]  [duration]  0    C    [hanabi]    [size]
+NMTHO   [measure]   [tick]  [duration]  0    C    [hanabi]    [size]
 ```
 `[numPos]` and `[chrPos]` is replaced by `0` and `C` respectively, since that is the only combination for the position of a Touch Hold.
 # Note ordering
