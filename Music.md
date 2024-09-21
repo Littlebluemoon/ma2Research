@@ -156,7 +156,9 @@ Utage specific function. A single kanji letter that will be displayed in song se
 ## comment
 Utage specific function. A short sentence describing the chart's theme, running jokes included.
 - Fun fact: This is set to **LET'S PARTY!!!** for all charts in International release. Sucks a butt ton.
+    - This sometimes has 1, 2, or 3 exclamation mark. Seemingly random based on the chart manager's mood. 
     - **Update**: Utage charts in international version now regained their corresponding comment(s).
+    - **Update again**: It's **LET'S PARTY!!!** again! Who put the butter in the freezer?
 
 ## utagePlayStyle
 Utage specific function. An integer that determines if an Utage chart is only playable in 2-Player Mode.
