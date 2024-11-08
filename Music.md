@@ -88,7 +88,9 @@ Both these tags is an array denoting the song's ID (and thus the corresponding m
 - `<id>` is the song's ID. Equals to four last digits of `XXXXXX` (the number on its parent folder), omitting any leading zeroes.
 - `<str>` is the song's name in its original form.
 ## dresscode
-Unknown effect. Currently, always set to `false`.
+An ancient function back from the original maimai, where potentially suggestive song jackets are replaced with more "family-friendly" ones.
+
+Currently, always set to `false` since such jackets are directly replaced in the game files for selected versions.
 ## eventName, eventName2, subEventName
 All these tags determines the event in which the song is released, but each one's effects was less clear. Seemingly, one of them can lock out the song until the player progressed through said events.
 Each of these receives an array as its value:
