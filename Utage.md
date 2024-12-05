@@ -45,7 +45,7 @@ Due to the recent updates, there are many more letters being used as description
 
 There can be up to four options to be applied to any Utage chart, overriding the player's own settings. They are displayed above the song jacket in song select.
 
-![Two fixed options applied to an Utage chart: Track Skip/SSS and Border/SSS](assets/fixedOptions.png)
+![Two fixed options applied to an Utage chart: Track Skip/SSS and Border/SSS](assets/fixedOptions.jpg)
 
 These can be set in the `fixedOption` tags. 
 
