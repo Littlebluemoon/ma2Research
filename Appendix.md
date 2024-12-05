@@ -157,6 +157,8 @@ This list is a description of currently known characters used to describe an Uta
 | 某 |  | This is 某S氏's version of the chart. | [Garakuta Doll Play](https://www.youtube.com/watch?v=qxKTXhLREA4). Stop asking why I love using reference videos with Tsukiho's face in it |
 | 奏 |  | A chart with some parts mirrored, or entirely modified. If the chart if 2P, there might be different modifications in each part of the chart. | [アンビバレンス](https://www.youtube.com/watch?v=0BD3uz0Y9P8). Except for some part in the beginning, the rest of this chart are either mirrored compared to the original Master chart. |
 | 習 | practice | Serves as a tutorial to master a specific pattern or chart. | [ウミユリ海底譚](https://www.youtube.com/watch?v=Kmhd_lw1Dks). This Utage chart teaches the player the basic of the Umiyuri pattern. Note how the chart gets progressively difficult. |
+| X |  | Associated with the song 人マニア. | TBA |
+| 噓 |  | Associated with the song ライアーダンサー. | TBA |
 
 # Utage fixed options
 A list of options that can be applied to Utage charts.
