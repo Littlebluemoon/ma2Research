@@ -137,7 +137,7 @@ This list is a description of currently known characters used to describe an Uta
 | 逆 | reverse | Star notes now appear at the end point of slides, instead of the start point | [おちゃめ機能](https://www.youtube.com/watch?v=krSWgZTk1cw) |
 | 覚 | memorize | One star note will trigger multiple slide notes, or rather, the slides following the slide that was triggered by the star are not preceeded by a star note(s). Players have to remember the order of these slides. One could even consider this a prototype of FESTiVAL's connecting slides mechanic. | [D✪N’T ST✪P R✪CKIN’](https://www.youtube.com/watch?v=jIKX1cW7HJ0)|
 | 撫 | stroke | Some slides appear without a star note. | [からくりピエロ](https://www.youtube.com/watch?v=eE-01tEzhM4)|
-| 即 | instant | All slides in the chart has shorter or no delay. | [Our Wrenally](https://www.youtube.com/watch?v=F-eMPEvT0I0)|
+| 即 | instant | All slides in the chart has shorter or no delay. In some cases, the chart gets completely modified whilst having extremely high slide BPMs. | [Our Wrenally](https://www.youtube.com/watch?v=F-eMPEvT0I0)|
 | 傾 | tilt | The entire chart is tilted compared to its original version. | [Back 2 Back](https://www.youtube.com/watch?v=748udBgkWr4)|
 | 蛸 | octopus | In some, or most points in the chart, three or more notes would require the player to hit them at the same time. These notes could be hit by using arms, elbows, various of body parts (head, torso, etc.), spins (at the cost of [sometimes] not being able to score a Critical Perfect), or with another player. | [ミラクル・ショッピング](https://www.youtube.com/watch?v=GLWoIzvLcak)|
 | 疑 | doubt | Slides have different delays depending on the star note that triggers it: A break star note means that the slide has no delay, while a normal one means the slide won't move until another tap note comes into its start point. | [DETARAME ROCK&ROLL THEORY](https://www.youtube.com/watch?v=h817XKdPHBc). Previously its letter was 宴 |
@@ -159,6 +159,12 @@ This list is a description of currently known characters used to describe an Uta
 | 習 | practice | Serves as a tutorial to master a specific pattern or chart. | [ウミユリ海底譚](https://www.youtube.com/watch?v=Kmhd_lw1Dks). This Utage chart teaches the player the basic of the Umiyuri pattern. Note how the chart gets progressively difficult. |
 | X |  | Associated with the song 人マニア. Patterns in the chart resemble a cross shape, hence the name. | [人マニア](https://youtu.be/n-IXCR0qv-c?si=k_Hp9W7glMS6-pi0) |
 | 噓 | liar | Associated with the song ライアーダンサー. Star notes always come with a slide note, but aren't put at where the slides started. | [ライアーダンサー](https://www.youtube.com/watch?v=Yw4Zp6c8Q4c) |
+| 爆 | burst | Chart that has a lot of touch notes that fire hanabis. Currently, the only chart with this property is [爆]Love's Theme of BADASS ～バッド・アス 愛のテーマ～. | [Love's Theme of BADASS ～バッド・アス 愛のテーマ～](https://www.youtube.com/watch?v=51vh92TeitU) |
+| 片 | piece | Part of the charts that are normally supposed to be played with two hands must now be played with only one, by locking your other hand somewhere, for example a hold. Currently, the only chart with this property is [片]神々が恋した幻想郷. | [神々が恋した幻想郷](https://www.youtube.com/watch?v=rnqcJo61Ojc) |
+| 甘 | sweet | Associated with the song スイートマジック. | [スイートマジック](https://www.youtube.com/watch?v=yDZknAX_Oxg) |
+| 匿 | hidden, anonymous | Associated with the song 匿名M. | [匿名M](https://www.youtube.com/watch?v=hAzye3YIuQg) |
+| 幸 | happy | Associated with the song 犬日和。(はっぴー歌唱Ver). This is a reference to Happy (はっぴー), the dog mascot that appears in official SEGA events. It seems whereever a dog appears in maimai, Happy will be there. [Happy even covered this song himself, and if you haven't recognized already, this is the song when you hover over random select.](https://www.youtube.com/watch?v=833zZZXEaP4) | [犬日和。(はっぴー歌唱Ver)](https://www.youtube.com/watch?v=X7AKJOcEWWk) |
+
 
 # Utage fixed options
 A list of options that can be applied to Utage charts.
