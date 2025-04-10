@@ -49,7 +49,7 @@ The tag `<releaseTagName>` is an array:
 - `<str>` is the song's name in its original form.
 ## rightsInfoName
 An array showing the song's copyright information, displayed under the song's jacket in song select.
-- `<id>` is the song's copyright text ID. Set to 0 by modern charters.
+- `<id>` is the song's copyright text ID.
 - `<str>` is the copyright text's content.
     - This field must be set to `<str />` (empty value) to prevent the copyright text box from appearing.
 ## sortName
@@ -59,7 +59,7 @@ An array showing the song's copyright information, displayed under the song's ja
 - Japanese characters (hiragana/kanji) are converted to kana, without dakutens and handakutens. For example, ガ (ga) would become カ (ka).
 ## artistName
 An array showing the song's artist.
-- `<id>` is the song artist's ID. Set to 0 by modern charters.
+- `<id>` is the song artist's ID.
 - `<str>` is the artist's name in its original form.
 ## genreName
 An array showing the song's genre in-game.
@@ -138,7 +138,7 @@ Enter anything larger than 9 will probably crash the game.
 
 ### notesDesigner
 An array showing the charter.
-- `<id>` is the charter's ID. Set to 0 by modern charters.
+- `<id>` is the charter's ID.
 - `<str>` is the charter's name. If filled as an empty value, it appears as - in song select.
 
 ### notesType
