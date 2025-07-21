@@ -214,6 +214,8 @@ NMTTP   10  0   4   D   0   M1      // Touch at sensor D4
 NMTHO   [measure]   [tick]  [duration]  0    C    [hanabi]    [size]
 ```
 `[numPos]` and `[chrPos]` is replaced by `0` and `C` respectively, since that is the only combination for the position of a Touch Hold.
+- **Notice**: After Version 1.57, it's now possible to put touch holds outside of the center censor, by replacing them with respective values. It's unknown if other values need to be set.
+- 
 # Note ordering
 Just like ma2 1.03.00, notes are sorted in order of timing.
 
